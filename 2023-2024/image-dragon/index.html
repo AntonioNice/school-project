@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image d'un Dragon recomposé via un tableau / Antonio Nice<title>
+    <style>
+        .remove-border-table { /* Trouvé sur des codes Codepen/Github d'une amie */
+            border: none !important; /* https://developer.mozilla.org/fr/docs/Web/CSS/border */
+            border-collapse: collapse !important; /* https://developer.mozilla.org/fr/docs/Web/CSS/border-collapse */
+        }
+
+        .remove-border-table td,
+        .remove-border-table th { /* Trouvé sur des codes Codepen/Github d'une amie */
+            padding: 0em; /* https://www.w3.org/Style/Examples/007/units.fr.html & https://developer.mozilla.org/fr/docs/Web/CSS/padding */
+        }
+
+        
+        img { /* https://discuss.codecademy.com/t/how-can-i-add-an-image-below-another-image/48804/2 */
+            display: block 
+        } 
+    </style>
+</head>
+<body>
+    <table class="remove-border-table" cellspawing="0" border="0">
+        <tbody>
+            <tr>
+                <td>
+                    <img src="/cours-html-2/partie 2/image-dragon/images/dragon4.gif">
+                </td>
+                <td>
+                    <img src="/cours-html-2/partie 2/image-dragon/images/dragon3.gif">
+                    <img src="/cours-html-2/partie 2/image-dragon/images/anidrag.gif"> 
+                    <img src="/cours-html-2/partie 2/image-dragon/images/dragon2.gif">
+                </td>
+                <td>
+                    <img src="/cours-html-2/partie 2/image-dragon/images/dragon5.gif"> 
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
