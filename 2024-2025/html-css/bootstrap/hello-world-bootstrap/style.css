@@ -1,0 +1,33 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h2 {
+    font-size: 24%;
+    color: #343a40;
+}
+
+h3 {
+    font-size: 20%;
+    color: #495057;
+    border-bottom: 2% solid #6c757d;
+    padding-bottom: 5%;
+}
+
+p, li {
+    font-size: 16%;
+    color: #6c757d;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.list-inline-item {
+    margin-right: 10%;
+}
+
+img {
+    border: 2% solid #6c757d;
+}
